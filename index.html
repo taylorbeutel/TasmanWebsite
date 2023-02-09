@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tasman's Exploration of Hobart</title>
+    <meta name="author" content="Taylor Beutel" />
+    <meta name="description" content="Tasman's Exploration of Hobart Home Page" />
+    <script src="https://kit.fontawesome.com/167783d1df.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+        <a href="#main-content" class="skip-link">Skip to Main Content</a>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li class="home-link" aria-current="page"><a href="index.html">Tasman's Exploration of Hobart</a></li>
+                <li class="animal-link"><a href="animals_category.html" aria-label="Animal Category Link"><i class="fa-solid fa-paw fa-fw"></i>Animals</a></li>
+                <li class="plant-link" ><a href="plants_category.html" aria-label="Plant Category Link"><i
+                            class="fa-sharp fa-solid fa-seedling fa-fw"></i>Plants</a></li>
+                <li class="about-link" ><a href="about.html" aria-label="About Link"><i class="fa-solid fa-user fa-fw"></i>About Tasman</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <article class="home-first-article">
+            <img class="hero" src="media/wallabies_grazing.jpg" alt="">
+            <!-- Used to center the title -->
+            <div class="header-container">
+                <h1>Tasman's Exploration of Hobart</h1>
+            </div>
+            <p>Welcome to my journal on Hobart! While exploring this area's beautiful nature, I kept a scrapbook of all
+                of the animals and plants that I came across, which you are reading now! Although my journey was a
+                challenge, it was very adventurous and I enjoyed my time
+                very much. Hopefully when you come and adventure, you will be able to find the amazing nature that I
+                have found and maybe discover something new as well!
+            </p>
+            <ul class="button-row">
+                <li class="animal-button"><a href="animals_category.html"  aria-label="Animal Category Link"><i class="fa-solid fa-paw fa-fw"></i>Animals</a></li>
+                <li class="plant-button"><a href="plants_category.html"  aria-label="Plant Category Link"><i class="fa-sharp fa-solid fa-seedling fa-fw"></i>Plants</a></li>
+            </ul>
+        </article>
+        <article class="home-second-article">
+            <h2>Categories</h2>
+            <!-- HTML and CSS for the flex-elements has been taken from https://codepen.io/nickresearch/pen/XWKrWgR -->
+            <section class="flex-container wrapper">
+                <img class="content" src="media/tasmanian_devils_laying.jpg"
+                    alt="Animal Category Example - Tasmanian Devil">
+                <img class="content" src="media/wombat.jpg" alt="Animal Category Example - Wombat">
+                <p>This scrapbook's first category is Animals. Hobart is known for having lots of unique wildlife,
+                    especially, the native Tasmanian Devils. It was very fun exploring different locations in Hobart and
+                    discovering all these unique animals, and I hope you can join me on this adventure!
+                    <a class="single-button animal-button" href="animals_category.html"  aria-label="Animal Category Link"><i class="fa-solid fa-paw fa-fw"></i>Animals</a>
+                </p>
+            </section>
+
+            <!-- HTML and CSS for the flex-elements has been taken from https://codepen.io/nickresearch/pen/XWKrWgR -->
+            <section class="flex-container wrapper second-row">
+                <img src="media/dark_beach_flowers.jpg" alt="Plant Category Example - Dark Beach Flowers">
+                <img src="media/light_pink_garden_flowers.jpg" alt="Plant Category Example - Light Pink Garden Flowers">
+                <p>The second category is Plants. As Hobart is at the bottom of Australia, it has colder weather. This
+                    means that this area has unique and fascinating plants to discover! I had some much fun exploring
+                    Hobart's nature and I hope you can join me on this adventure!
+                    <a class="single-button plant-button" href="plants_category.html"  aria-label="Plant Category Link"><i
+                            class="fa-sharp fa-solid fa-seedling fa-fw"></i>Plants</a>
+                </p>
+            </section>
+        </article>
+
+    </main>
+
+    <footer>
+        <nav aria-label="Footer Navigation">
+            <a href="index.html">Tasman's Exploration of Hobart</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
